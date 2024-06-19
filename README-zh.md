@@ -4,7 +4,7 @@
 
 ## 简介
 
-gin-web 是一个基于 go iris 和 vue3 框架的 web 模板。它采用的是前后端不分离模式，可用于快速开发 web 应用。
+gin-web 是一个基于 go gin 和 vue3 框架的 web 模板。它采用的是前后端不分离模式，可用于快速开发 web 应用。
 
 ## 目录结构
 
@@ -92,7 +92,8 @@ make build-image
 ## 致谢
 
 -   [go](https://github.com/golang/go)
--   [iris](https://github.com/kataras/iris)
+-   [gin](https://github.com/gin-gonic/gin)
+-   [gin-contrib](https://github.com/gin-contrib)
 -   [vuejs](https://github.com/vuejs/vue)
 -   [axios](https://github.com/axios/axios)
 -   [element-plus-ui](https://github.com/element-plus/element-plus)

@@ -2,7 +2,7 @@
 
 [中文](./README-zh.md)
 
-gin-web is a web template based on [vue3](https://vuejs.org) and [iris](https://github.com/kataras/iris) in [Go](https://go.dev/). It does not require packaging of front-end static files, HTML directly uses Vue3 axios、element-plus ui， Embed into go binary file.
+gin-web is a web template based on [vue3](https://vuejs.org) and [gin](https://github.com/gin-gonic/gin) in [Go](https://go.dev/). It does not require packaging of front-end static files, HTML directly uses Vue3 axios、element-plus ui， Embed into go binary file.
 
 ## Project Layout
 
@@ -89,7 +89,8 @@ make build-image
 ## Thanks
 
 -   [go](https://github.com/golang/go)
--   [iris](https://github.com/kataras/iris)
+-   [gin](https://github.com/gin-gonic/gin)
+-   [gin-contrib](https://github.com/gin-contrib)
 -   [vuejs](https://github.com/vuejs/vue)
 -   [axios](https://github.com/axios/axios)
 -   [element-plus-ui](https://github.com/element-plus/element-plus)
