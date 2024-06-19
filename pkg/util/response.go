@@ -12,10 +12,10 @@ import (
 // https://www.jb51.net/jiaoben/293311yib.html
 
 type Response struct {
-	Code int         `json:"code" example:"200"` // 响应状态码
-	Data interface{} `json:"data"`               // 响应数据
-	Msg  interface{} `json:"msg"`                // 响应信息
-	// RequestId string      `json:"requestId"`
+	Code      int         `json:"code" example:"200"` // 响应状态码
+	Data      interface{} `json:"data"`               // 响应数据
+	Msg       interface{} `json:"msg"`                // 响应信息
+	RequestId string      `json:"requestId"`
 }
 
 type Page struct {
