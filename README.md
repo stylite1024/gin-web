@@ -9,6 +9,7 @@ gin-web is a web template based on [vue3](https://vuejs.org) and [gin](https://g
 See: [project-layout](https://github.com/golang-standards/project-layout)
 
 ```
+.
 ├── air.toml
 ├── cmd
 │   ├── root.go
@@ -25,7 +26,6 @@ See: [project-layout](https://github.com/golang-standards/project-layout)
 │   ├── handler
 │   │   └── handler.go
 │   ├── logger
-│   │   └── logger.go
 │   ├── logic
 │   └── router
 │       └── router.go
@@ -34,6 +34,7 @@ See: [project-layout](https://github.com/golang-standards/project-layout)
 ├── Makefile
 ├── pkg
 │   └── util
+│       ├── ip.go
 │       └── response.go
 ├── README.md
 ├── README-zh.md
@@ -41,7 +42,7 @@ See: [project-layout](https://github.com/golang-standards/project-layout)
 │   ├── docker-entrypoint.sh
 │   └── nginx.conf
 ├── test
-│   └── iris_test.go
+│   └── gin_test.go
 └── web
     ├── static
     │   ├── api
