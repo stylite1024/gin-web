@@ -5,6 +5,7 @@ import (
 	"gin-web/internal/handler"
 	"gin-web/web"
 	"net/http"
+	"time"
 
 	"github.com/gin-contrib/static"
 	"github.com/gin-gonic/gin"
@@ -29,7 +30,7 @@ func staticFileRouter(r *gin.Engine) {
 	})
 
 	r.GET("/ping", func(c *gin.Context) {
-		c.String(200, "pong")
+		c.String(200, "pong "+fmt.Sprint(time.Now().Unix()))
 	})
 }
 
